@@ -9,7 +9,7 @@
 const dolar =  229.00;
 const euro = 251.00;
 const pesos = 1;
-const dolarSobreEuro = 0.90;
+const dolarSobreEuro = dolar/euro;
 const fecha = new Date();
 const hoy = fecha.toDateString()
 
